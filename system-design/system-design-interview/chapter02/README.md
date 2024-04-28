@@ -5,7 +5,7 @@ Here, we're building a system that supports a few users & gradually scale it to 
 To start off, we're going to put everything on a single server - web app, database, cache, etc.
 ![single-server-setup](images/single-server-setup.png)
 
-What's the request flow in there?
+What's the request flow in there
  * User asks DNS server for the IP of my site (ie `api.mysite.com -> 15.125.23.214`). Usually, DNS is provided by third-parties instead of hosting it yourself.
  * HTTP requests are sent directly to server (via its IP) from your device
  * Server returns HTML pages or JSON payloads, used for rendering.
